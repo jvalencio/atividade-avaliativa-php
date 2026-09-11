@@ -32,8 +32,8 @@ class Departamento {
     }
 
     public function mediaSalarial(): float {
-        if (count($funcionarios) > 0)
-            return $this->calcularFolhaTotal() / count($funcionarios);
+        if (count($this->funcionarios) > 0)
+            return $this->calcularFolhaTotal() / count($this->funcionarios);
 
         return 0.0;
     }

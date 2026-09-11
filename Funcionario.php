@@ -40,7 +40,7 @@ class Funcionario {
     public function calcularSalarioLiquido(): float {
         $salarioLiquido = $this->salario * 0.89; // desconto de 11%
 
-        if ($salario > 5000) {
+        if ($this->salario > 5000) {
             return $salarioLiquido * 0.95; // desconto adicional de 5%
         }
 
