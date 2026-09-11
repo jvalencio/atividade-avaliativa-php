@@ -2,7 +2,7 @@
 
 Atividade avaliativa desenvolvida para a faculdade com o objetivo de praticar os conceitos básicos de **Programação Orientada a Objetos (POO) em PHP**.
 
-## Sobre o projeto
+## Sobre o Projeto
 
 O projeto consiste na implementação de duas classes principais:
 
@@ -13,14 +13,14 @@ A interação entre as classes é realizada no arquivo `test.php`, utilizado par
 
 ## Tecnologias
 
-* PHP
+* PHP 8.5
 
 ## Estrutura
 
 ```text
 ├── Funcionario.php
 ├── Departamento.php
-├── test.php
+├── teste.php
 └── README.md
 ```
 
